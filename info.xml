@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<extension key="eu.businessandcode.unblockemails" type="module">
+  <file>unblockemails</file>
+  <name>Unblock Emails on Hold</name>
+  <description>removes the on hold flag in bulk</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Alain Benbassat</author>
+    <email>alain@businessandcode.eu</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/AlainBenbassat/eu.businessandcode.unblockemails</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2021-12-21</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>5.0</ver>
+  </compatibility>
+  <comments>Navigate to civicrm/unblock-emails</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Unblockemails</namespace>
+  </civix>
+</extension>
