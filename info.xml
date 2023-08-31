@@ -21,8 +21,13 @@
   <comments>Navigate to civicrm/unblock-emails</comments>
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
+    <psr0 prefix="CRM_" path="."/>
   </classloader>
   <civix>
     <namespace>CRM/Unblockemails</namespace>
+    <format>22.10.0</format>
   </civix>
+  <mixins>
+    <mixin>menu-xml@1.0.0</mixin>
+  </mixins>
 </extension>
