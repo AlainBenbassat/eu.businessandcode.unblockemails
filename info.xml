@@ -12,11 +12,11 @@
     <url desc="Main Extension Page">https://github.com/AlainBenbassat/eu.businessandcode.unblockemails</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
-  <releaseDate>2021-12-21</releaseDate>
-  <version>1.0</version>
+  <releaseDate>2024-10-10</releaseDate>
+  <version>1.1</version>
   <develStage>stable</develStage>
   <compatibility>
-    <ver>5.0</ver>
+    <ver>5.27</ver>
   </compatibility>
   <comments>Navigate to civicrm/unblock-emails</comments>
   <classloader>
@@ -25,9 +25,10 @@
   </classloader>
   <civix>
     <namespace>CRM/Unblockemails</namespace>
-    <format>22.10.0</format>
+    <format>23.02.1</format>
   </civix>
   <mixins>
     <mixin>menu-xml@1.0.0</mixin>
+    <mixin>smarty-v2@1.0.1</mixin>
   </mixins>
 </extension>
